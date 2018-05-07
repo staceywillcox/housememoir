@@ -7,9 +7,16 @@ html{
 #mainwrapper{
 	/*background-color: rgb(250,250,250);*/
 	padding:20px;
-	width:90%;
+	width:60%;
 	margin:0 auto;
 
+}
+
+.fullimage{
+	width:100%;
+}
+.halfimage{
+	width:49%;
 }
 
 #past{
@@ -32,12 +39,11 @@ html{
 
 .navchild{
 width:33.33%;
-background-color: rgb(0,0,76);
+background-color: Grey;
 color:white;
 float:left; 
 text-align: center;
 border:none;
-
 font-size: 1em;
 
 }
@@ -63,7 +69,7 @@ font-size: 1em;
 }
 
 #pastthree{
-	width: 50%;
+	width: 100%;
 }
 
 #pastfour{
@@ -81,6 +87,9 @@ h2{
 
 h3{
 	font-family: 'Oswald', sans-serif;
+}
+h4{
+	font-family: 'Oswald', sans-serif;	
 }
 
 p{
@@ -106,6 +115,7 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width:700px;
 }
  #subtitle{
  	font-size: 0.7em;
@@ -115,4 +125,29 @@ p{
 
 img{
 
+}
+
+@media (max-width: 1200px){
+
+	#mainwrapper{
+		width:90%;
+	}
+}
+
+@media (max-width: 800px){
+
+#text{
+	font-size: 3.5em;
+}
+}
+
+@media (max-width: 600px){
+
+#text{
+	font-size: 2.5em;
+}
+
+h3{
+	font-size: 1.5em;
+}
 }
