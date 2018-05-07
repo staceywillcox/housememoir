@@ -9,6 +9,7 @@ html{
 	padding:20px;
 	width:60%;
 	margin:0 auto;
+	margin-bottom:100px;
 
 }
 
@@ -16,7 +17,34 @@ html{
 	width:100%;
 }
 .halfimage{
-	width:49%;
+	width:100%;
+}
+
+.longimage{
+	flex-basis: 40%;
+	width:40%;
+	height:40%;
+	padding-left:25px;
+	padding-top: 20px;
+	padding-bottom:25px;
+}
+
+.longimagetext{
+	flex-basis:60%;
+	
+}
+
+.innerimage{
+	width:100%;
+	height:100%;
+}
+.imageref{
+font-size: 0.9em;
+
+}
+
+.lane{
+	width:100%;
 }
 
 #past{
@@ -39,13 +67,17 @@ html{
 
 .navchild{
 width:33.33%;
-background-color: Grey;
+background-color: #202020;
 color:white;
 float:left; 
 text-align: center;
 border:none;
 font-size: 1em;
 
+}
+
+.heading{
+	margin-top:100px;
 }
 
 .navchild:active {
@@ -60,12 +92,28 @@ font-size: 1em;
 
 #pastone{
 	width:100%;
-	text-align: justify;
+
 
 }
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
 
-#pasttwo{
+.child{
+flex-basis: 48%;
+margin:10px;
+}
+
+#pastone{
 	width:100%;
+	display: flex;
+}
+
+#presentone{
+	width:100%;
+	margin-top:10px;
+	display: flex;
 }
 
 #pastthree{
@@ -94,6 +142,7 @@ h4{
 
 p{
 	font-family: 'Roboto Condensed', sans-serif;
+		text-align: justify;
 }
 
 
